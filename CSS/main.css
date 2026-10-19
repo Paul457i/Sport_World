@@ -1,0 +1,147 @@
+/* GOOGLE FONT  */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* UNIVERAL SELECTOR  */
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ELEMENT SELECTOR  */
+body {
+  color: dimgrey;
+  background-color: white;
+  font-size: 1rem;
+}
+
+h1 {
+  color: black;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+p {
+  color: darkblue;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* ID SELECTOR  */
+
+#header {
+  color: black;
+  background-color: chocolate;
+}
+
+#welcome {
+  background-color: cornflowerblue;
+}
+
+#popular-sport {
+  color: black;
+  background-color: darkgoldenrod;
+}
+
+#athletes {
+  color: darkred;
+  background-color: darkgray;
+}
+
+#news {
+  color: black;
+  background-color: lightblue;
+}
+
+#sport-quote {
+  color: deeppink;
+  background-color: firebrick;
+}
+
+#contact {
+  color: black;
+  background-color: darkgray;
+}
+
+#footer {
+  color: black;
+  background-color: seagreen;
+}
+
+/* CLASS SELECTOR  */
+
+.welcome-card {
+  font-family: monospace;
+  font-style: normal;
+}
+
+.football {
+  color: black;
+}
+
+/* DECENDANT SELECTOR  */
+
+.welcome-card h1 {
+  font-weight: 800;
+}
+
+.welcome-card p {
+  font-style: italic;
+}
+
+.navigation a {
+  color: white;
+}
+
+#footer p {
+  color: blue;
+}
+
+/* CHILD SELECTOR  */
+
+#welcome > h1 {
+  background-color: brown;
+  color: lightskyblue;
+}
+
+.sport-card > h4 {
+  background-color: darkgreen;
+  color: red;
+}
+
+.sport-card > p {
+  background-color: black;
+  color: white;
+}
+
+.athlete-card > h3 {
+  background-color: darkgreen;
+}
+
+.athlete-card > h4 {
+  background-color: dodgerblue;
+}
+
+.athlete-card > p {
+  background-color: black;
+  color: red;
+}
+
+.navigation > a {
+  color: white;
+}
+
+/* GROUPING SELECTOR  */
+
+h1,
+h2,
+h3 {
+  font-weight: 16px;
+}
+

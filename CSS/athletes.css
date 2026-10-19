@@ -1,0 +1,93 @@
+* {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  color: blue;
+  font-weight: 800;
+  font-size: 32px;
+  text-align: center;
+  background-color: black;
+}
+
+p {
+  color: #333333;
+  font-size: 18px;
+}
+
+h2 {
+  color: darkred;
+  background-color: cornflowerblue;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.wel {
+  background-color: darkcyan;
+  color: black;
+}
+
+a {
+  color: red;
+}
+
+.info-girl {
+  background-color: cadetblue;
+}
+
+.athlete-description {
+  background-color: dodgerblue;
+}
+
+h5 {
+  background-color: mediumorchid;
+}
+
+ul li {
+  background-color: gray;
+}
+
+.p1 {
+  background-color: cornsilk;
+  color: darkblue;
+}
+
+ol li {
+  background-color: lightcyan;
+  color: chocolate;
+}
+
+.ach {
+  background-color: honeydew;
+  color: slateblue;
+}
+
+.p2 {
+  background-color: azure;
+  color: crimson;
+}
+
+.p3 {
+  background-color: aliceblue;
+  color: crimson;
+}
+
+.p4 {
+  background-color: purple;
+  color: black;
+}
+
+.p5 {
+  background-color: cornsilk;
+}
+
+.p6 {
+  background-color: darkgray;
+  color: black;
+}
+
+.p7 {
+  background-color: #333333;
+  color: white;
+}
